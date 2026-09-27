@@ -34,3 +34,17 @@ yarn-error.log*
 .vercel
 
 .idea/
+
+# Security: local secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+credentials.json
+*.secrets.json
